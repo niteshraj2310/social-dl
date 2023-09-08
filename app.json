@@ -1,0 +1,26 @@
+{
+    "name":"Social-dl",
+    "description":" VideoDonloader Bot.",
+    "repository":"https://github.com/niteshraj2310/social-dl",
+    "logo":"https://i.imgur.com/pW4vFsd.png",
+    "keywords":[
+        "telegram-bot",
+        "bot",
+        "python"
+    ],
+    "success_url":"https://t.me/Nitesh_231",
+    "stack":"container",
+    "image":"Dockerfile",
+
+
+    "env":{
+        "UPSTREAM_REPO": {
+            "description": "Needed if deploying from Dockerfile"
+        }
+    },
+    "formation":{
+        "worker":{
+            "quantity":1
+        }
+    }
+}
